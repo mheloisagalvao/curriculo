@@ -1,0 +1,378 @@
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+ }
+
+    @font-face {
+    font-family: "Helena";
+    src: url(font/Helena\ Johnsmith.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family: "King";
+    src: url(font/KIN668.TTF) format('truetype');
+    }
+
+ 
+  /* banner */
+  
+  #header {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+#header .header-content {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 40px 0;
+	width: 100%;
+	-moz-transition: padding 0.3s;
+	-o-transition: padding 0.3s;
+	-webkit-transition: padding 0.3s;
+	transition: padding 0.3s;
+}
+
+.navigation {
+	float: right;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a {
+	color: #681434;
+    font-family: "Helena";
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-left: 40px;
+}
+
+.navigation a:hover, .navigation a.active {
+	color: #21002E;
+}
+
+  /* -------------------------------------------------------------------------------- */
+  
+  /* HEADER */
+  
+  .header{
+      height: 500px;
+      color: #ffffff;
+  }
+  
+  .container_header{
+      width: 100%;
+      height: 100%;
+      display: flexbox;
+      align-items: center;
+      padding: 30px;
+      text-align: center;
+  }
+
+    h1 {
+        font-family: "Helena";
+        color: #681434;
+        font-size: 70px;
+        font-weight: 100;
+        margin-right: 30px;
+    }
+  
+  
+  /*********** HEADER IMG  *********/
+
+  .header_imagem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    top: 50%;
+    left: 60%;
+    bottom: 10%;
+ }
+
+
+ /* --- BOTAO --- */
+    
+ .header_button {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #7F479B;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight:100;
+    letter-spacing: 0.5px;
+    margin-top: 2%;
+    font-family: "King";
+  }
+
+  .header_button:hover {
+      background-color: #462755;
+      color: #ffffff;
+      transition: background-color .5s;
+  }
+
+  
+  /* Secao Currículo */
+  
+  .curriculo{
+      background-color: #9958FC;
+      align-items: center;
+      width: 100%;
+      height: 730px;
+      padding-bottom: 50%;
+  }
+  
+  .container_curriculo{
+      text-align: center;
+      padding: 0 5%;
+      top: 50%;
+      left: 60%;
+  }
+
+  .nomeCurriculo {
+    padding-top: 3%;
+  }
+  
+  .curriculo_boxBorder{
+      border: 1px solid #674582;
+      margin: 42px;
+  }
+  
+  .boxBorder_texto{
+      margin: 30px;
+      color: #21002E;
+      text-align: center;
+  }
+  
+  .container_historia{
+    display: flex;
+    color: #21002E;
+    margin-left: 08%;
+    margin-right: 08%;
+  }
+
+ .historia_imagem{
+    height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+  }
+  
+  .historia_texto{
+      width: 60%;
+      margin-left: 40px;
+  }
+  
+  .historia_titulo{
+      color: #681434;
+      margin-top: 10px;
+      padding-bottom: 10px;
+      font-family: "King";
+  }
+  
+  .historia_paragrafo{
+    
+      text-align: justify;
+  }
+  
+   /* SECAO Recado */
+  
+ .container_recado{
+    display: flex;
+    margin-top: 3%;
+ }
+
+ h2 {
+     font-family: "King";
+ }
+
+ .icon{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+ }
+
+ .recado__titulo1 {
+    color: #681434;
+      font-size: 70px;
+      letter-spacing: 1px;
+      padding: 30px;
+      font-family: "Helena";
+      font-weight: 100;
+      text-align: justify;
+      justify-content: center;
+ }
+
+ .recado__titulo2 {
+    font-family: "King";
+      font-size: 25px;
+      padding-bottom: 3%;
+      color: #21002E;
+ }
+
+ #textoInput{
+    width: 30%;
+    height: 100px; 
+    margin-top: 2%;
+    margin-bottom: 2%;   
+ }
+
+ #nomeInput{
+    width: 30%;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ .texto__button {   
+    background-color: #7F479B;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 20%;
+    font-weight:100;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    height: 40px;
+    font-family: "King";
+ }
+
+ .texto__button:hover {
+    background-color: #462755;
+    color: #ffffff;
+    transition: 0.3s;
+ }
+
+  /* FOOTER */
+  
+  .footer {
+      background: #681434;
+      color: #F3F3F3;
+      
+  }
+  
+  .footer__menu {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px 60px;
+      font-size: 1.4rem;
+      padding: 30px;
+  }
+
+  .footer__titulo1 {
+    color: #ffffff;
+      font-size: 70px;
+      letter-spacing: 1px;
+      padding: 30px;
+      font-family: "Helena";
+      font-weight: 100;
+      text-align: justify;
+      justify-content: center;
+  }
+
+  .footer__titulo2 {
+    font-family: "King";
+      font-size: 25px;
+      padding-bottom: 3%;
+      color: #000000;
+  }
+
+
+  .footer__links {
+      display: block;
+      text-align: center;
+      list-style: none;
+  }
+  
+  
+  .footer_cc {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  }
+
+  a {
+      font-family: "King";
+  }
+  
+  /* media */
+
+  @media(max-width: 760px){
+      .container_header{
+          flex-direction: column;
+          
+      }
+  
+      .header_titulo{
+          width: 90%;
+          margin: 5px 10px 5px 10px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+  
+      .container_historia{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: justify;
+          
+      }
+  
+      .historia_imagem{
+          width: 90%;
+          margin-bottom: 30px;
+      }
+  
+      .container_recado{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+   
+      #textoInput{
+          width: 80%;
+          height: 100px;    
+      }
+      
+      #nomeInput{
+          width: 80%;
+          height: 30px;
+      }
+  
+      .texto__button{
+          width: 30%;
+      }
+  }
+
+      @media(max-width: 746px)  {
+          .autora_sobre{
+            height: 220px; 
+
+          }
+      }
+  

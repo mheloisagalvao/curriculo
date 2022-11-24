@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i">
+    <link rel="stylesheet" href="style.css">
+    <title> Currículo Heloísa Galvão </title>
+</head>
+
+<body>
+
+    <!-- banner -->
+
+    <section class="banner">
+        <header id="header">
+            <div class="header-content">
+                <nav class="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="#sobremim">Sobre mim</a></li>
+                        <li><a href="#info">Currículo</a></li>
+                        <li><a href="#contato">Recados</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </section>
+
+    <!-- HEADER -->
+
+    <header >
+        <div id="sobremim" class="container_header">
+            <div class="header_titulo">
+                <h1>
+                    Heloísa Galvão
+                </h1>
+             </div>
+
+            <div class="header_imagem">
+                <img class="header_maravilhosa_img" src="img/minhafoto.jpeg" alt = "Foto Maria Heloísa Galvão">
+            </div>
+
+            <div class = "botao">
+                <a class="header_button" href="https://www.linkedin.com/in/heloisagalvao123/">
+                    Meu Linkedin
+                </a>
+            </div>
+        </div> 
+    </header>
+
+    <!-- Secao Curriculo -->
+
+    <section class="curriculo">
+
+        <div id="info" class="container_curriculo">
+
+            <div>
+                <h1 class = "nomeCurriculo"> Currículo </h1>
+            </div>
+
+            <div class="curriculo_boxBorder">
+                <p class="boxBorder_texto"> Tenho 18 anos e sou formada como técnica em multimídia. Hoje em dia sou estudante de Sistemas para Internet e Design.</p>
+            </div>
+
+        </div>
+
+        <div class="container_historia">
+
+            <img class="historia_imagem" src="img/gif.gif" alt="Animação criativa">
+
+            <div class="historia_texto">
+
+                <h2 class="historia_titulo"> Objetivo </h2>
+
+                <p class="historia_paragrafo"> 
+                    Tenho como objetivo atuar na área de design e desenvolvimento de sistemas. Tenho experiência com design para jogos digitas e edição de vídeos. 
+                </p>
+
+                <h2 class="historia_titulo"> Estudos </h2>
+
+                <p class="historia_paragrafo"> 
+                    <li>Técnico em Multimídia no NAVE Recife: 2019 - 2021</li>
+                    <li>Graduação em Sistemas para Internet na Universidade Católica de Pernambuco: 2022 - 2024</li>
+                    <li>Graduação em Design na Universidade Federal de Pernambuco: 2022 - 2026</li>
+                </p>
+
+                <h2 class="historia_titulo"> Habilidades </h2>
+
+                <p class="historia_paragrafo"> 
+                    <li>Illustrator</li>
+                    <li>Photoshop</li>
+                    <li>Desenvolvimento web</li>
+                </p>
+
+                <h2 class="historia_titulo"> Extra Curriculares </h2>
+
+                <p class="historia_paragrafo"> 
+                    <li> Estágio de verão na Fiocruz Pernambuco</li>
+                    <li> Palestra no Ted-Ed 2019 (link <a href="https://youtu.be/QLgXohLUwu8">aqui</a>!)</li>
+                    <li> Voluntária no The Developers Conference 2019</li>
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+     <!-- Secao Recado -->
+
+     <section class="container_recado">
+        <div id="contato" class="icon_recado">
+            <img class="icon" src="img/icon-recado.png" alt="Ícone de caixa de recado">
+        </div>
+        <div>
+            <h2 class="recado__titulo1"> Entre em contato comigo </h2>
+
+            <h3 class= "recado__titulo2">Deixe uma mensagem para mim:</h3>
+
+                <input type="text" class="texto__input" placeholder="Deixe uma mensagem" id="texto"/>
+                <button id="botaoPostar" class="button texto__button"> Postar </button>
+              
+            <h2 class="recado__titulo1"> Últimos recados: </h2>
+              <span>
+              <ol id="checkrecados"></ol>
+              </span>
+        </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer__menu">
+            <ul class="footer__links">
+                <li>
+                    <p class="footer__titulo1"> Contatos</p>
+                    <p class="footer__titulo2"> Número: (081) 98638-1340 <br> Email : mheloisagalvao@gmail.com </p>
+                </li>
+            </ul>
+
+            <div class="navegacao__redes-sociais">
+                <p class="footer__titulo1"> Redes Sociais</p>
+                <a href="https://www.instagram.com/heloglv/" target="_blank">
+                    <img src="./img/icon-instagram.png" alt="Ícone do Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/heloisagalvao123/" target="_blank">
+                    <img src="./img/icon-linkedin.png" alt="Ícone do LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/3.4.4/parse.min.js"></script>
+    <script src="recados.js" defer></script>
+
+</body>
+
+</html>
